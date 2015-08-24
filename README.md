@@ -4,14 +4,13 @@ Linked Data for Archival Description
 bibfra.me Vocabulary for Archival Description
 ========
 
-The vocabulary in this respository reflect [Zepheira's](http://zepheira.com) approach
-to [modular, layered vocabulary management] (http://bibfra.me).  These vocabularies are being shaped by a range
+The vocabulary in this respository reflects [Zepheira's](http://zepheira.com) approach
+to [modular, layered vocabulary management] (http://bibfra.me).  The vocabulary is being shaped by a range
 of related professional services engagements along with help from participants
-in Zepheira's [Practical Practitioner, Linked Data training series](http://zepheira.com/solutions/library/training/) and volunteers from other communities of librarians and archvisits.
+in Zepheira's [Practical Practitioner, Linked Data training series](http://zepheira.com/solutions/library/training/) and volunteers from other communities of librarians and archvisits. All vocabulary development is based on use-cases and test data.
 
 The vocabulary evolves and works alongside our data diagnostics, transformation and enhancement services,
-along with the [Libhub inititative](http://libhub.org) to make libraries viible on the Web. The [core implementation
-of these services is available as open source software](https://github.com/zepheira/pybibframe).
+along with the [Libhub inititative](http://libhub.org) to make libraries and archives visible on the Web. The [core implementation of these services is available as open source software](https://github.com/zepheira/pybibframe).
 
 Please let us be clear that these vocabularies are not intended to replace or compete with other Linked Data
 namespaces, for libraries, archives, or any other purpose. These vocabularies take advantage of BIBFRAME profiles,
