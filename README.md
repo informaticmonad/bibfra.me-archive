@@ -1,7 +1,7 @@
 # LD4A
-Linked Data for Archives
+Linked Data for Archival Description
 
-bibfra.me Vocabulary for Archives
+bibfra.me Vocabulary for Archival Description
 ========
 
 The vocabulary in this respository reflect [Zepheira's](http://zepheira.com) approach
