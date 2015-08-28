@@ -583,56 +583,557 @@ Terms below mapped from EAD3 elements
 * remark:
 
 ## controlnote
-conventiondeclaration
-corpname
-custodhist
-dao
-daoset
-date
-daterange
-dateset
-datesingle
-defitem
-descriptivenote
-did
-didnote
-dimensions
-dsc
-ead
-edition
-editionstmt
-emph
-entry
-event
-eventdatetime
-eventdescription
-eventtype
-expan
-famname
-filedesc
-fileplan
-footnote
-foreign
-fromdate
-function
-genreform
-geogname
-geographiccoordinates
-head
-head01
-head02
-head03
-index
-indexentry
-item
-label
-langmaterial
-language
-languagedeclaration
-languageset
-lb
-legalstatus
-list
+
+* label: 
+* refines: <http://bibfra.me/vocab/lite/xxxx>
+* synonyms: 
+* description: 
+* value: Literal/resource
+* properties:  
+* scope: <http://bibfra.me/vocab/archive>
+* remark:
+
+## conventiondeclaration
+
+* label: 
+* refines: <http://bibfra.me/vocab/lite/xxxx>
+* synonyms: 
+* description: 
+* value: Literal/resource
+* properties:  
+* scope: <http://bibfra.me/vocab/archive>
+* remark:
+
+## corpname
+
+* label: 
+* refines: <http://bibfra.me/vocab/lite/xxxx>
+* synonyms: 
+* description: 
+* value: Literal/resource
+* properties:  
+* scope: <http://bibfra.me/vocab/archive>
+* remark:
+
+## custodhist
+
+* label: 
+* refines: <http://bibfra.me/vocab/lite/xxxx>
+* synonyms: 
+* description: 
+* value: Literal/resource
+* properties:  
+* scope: <http://bibfra.me/vocab/archive>
+* remark:
+
+## dao
+
+* label: 
+* refines: <http://bibfra.me/vocab/lite/xxxx>
+* synonyms: 
+* description: 
+* value: Literal/resource
+* properties:  
+* scope: <http://bibfra.me/vocab/archive>
+* remark:
+
+## daoset
+
+* label: 
+* refines: <http://bibfra.me/vocab/lite/xxxx>
+* synonyms: 
+* description: 
+* value: Literal/resource
+* properties:  
+* scope: <http://bibfra.me/vocab/archive>
+* remark:
+
+## date
+
+* label: 
+* refines: <http://bibfra.me/vocab/lite/xxxx>
+* synonyms: 
+* description: 
+* value: Literal/resource
+* properties:  
+* scope: <http://bibfra.me/vocab/archive>
+* remark:
+
+## daterange
+
+* label: 
+* refines: <http://bibfra.me/vocab/lite/xxxx>
+* synonyms: 
+* description: 
+* value: Literal/resource
+* properties:  
+* scope: <http://bibfra.me/vocab/archive>
+* remark:
+
+## dateset
+
+* label: 
+* refines: <http://bibfra.me/vocab/lite/xxxx>
+* synonyms: 
+* description: 
+* value: Literal/resource
+* properties:  
+* scope: <http://bibfra.me/vocab/archive>
+* remark:
+
+## datesingle
+
+* label: 
+* refines: <http://bibfra.me/vocab/lite/xxxx>
+* synonyms: 
+* description: 
+* value: Literal/resource
+* properties:  
+* scope: <http://bibfra.me/vocab/archive>
+* remark:
+
+## defitem
+
+* label: 
+* refines: <http://bibfra.me/vocab/lite/xxxx>
+* synonyms: 
+* description: 
+* value: Literal/resource
+* properties:  
+* scope: <http://bibfra.me/vocab/archive>
+* remark:
+
+## descriptivenote
+
+* label: 
+* refines: <http://bibfra.me/vocab/lite/xxxx>
+* synonyms: 
+* description: 
+* value: Literal/resource
+* properties:  
+* scope: <http://bibfra.me/vocab/archive>
+* remark:
+
+## did
+
+* label: 
+* refines: <http://bibfra.me/vocab/lite/xxxx>
+* synonyms: 
+* description: 
+* value: Literal/resource
+* properties:  
+* scope: <http://bibfra.me/vocab/archive>
+* remark:
+
+## didnote
+
+* label: 
+* refines: <http://bibfra.me/vocab/lite/xxxx>
+* synonyms: 
+* description: 
+* value: Literal/resource
+* properties:  
+* scope: <http://bibfra.me/vocab/archive>
+* remark:
+
+## dimensions
+
+* label: 
+* refines: <http://bibfra.me/vocab/lite/xxxx>
+* synonyms: 
+* description: 
+* value: Literal/resource
+* properties:  
+* scope: <http://bibfra.me/vocab/archive>
+* remark:
+
+## dsc
+
+* label: 
+* refines: <http://bibfra.me/vocab/lite/xxxx>
+* synonyms: 
+* description: 
+* value: Literal/resource
+* properties:  
+* scope: <http://bibfra.me/vocab/archive>
+* remark:
+
+## ead
+
+* label: 
+* refines: <http://bibfra.me/vocab/lite/xxxx>
+* synonyms: 
+* description: 
+* value: Literal/resource
+* properties:  
+* scope: <http://bibfra.me/vocab/archive>
+* remark:
+
+## edition
+
+* label: 
+* refines: <http://bibfra.me/vocab/lite/xxxx>
+* synonyms: 
+* description: 
+* value: Literal/resource
+* properties:  
+* scope: <http://bibfra.me/vocab/archive>
+* remark:
+
+## editionstmt
+
+* label: 
+* refines: <http://bibfra.me/vocab/lite/xxxx>
+* synonyms: 
+* description: 
+* value: Literal/resource
+* properties:  
+* scope: <http://bibfra.me/vocab/archive>
+* remark:
+
+## emph
+
+* label: 
+* refines: <http://bibfra.me/vocab/lite/xxxx>
+* synonyms: 
+* description: 
+* value: Literal/resource
+* properties:  
+* scope: <http://bibfra.me/vocab/archive>
+* remark:
+
+## entry
+
+* label: 
+* refines: <http://bibfra.me/vocab/lite/xxxx>
+* synonyms: 
+* description: 
+* value: Literal/resource
+* properties:  
+* scope: <http://bibfra.me/vocab/archive>
+* remark:
+
+## event
+
+* label: 
+* refines: <http://bibfra.me/vocab/lite/xxxx>
+* synonyms: 
+* description: 
+* value: Literal/resource
+* properties:  
+* scope: <http://bibfra.me/vocab/archive>
+* remark:
+
+## eventdatetime
+
+* label: 
+* refines: <http://bibfra.me/vocab/lite/xxxx>
+* synonyms: 
+* description: 
+* value: Literal/resource
+* properties:  
+* scope: <http://bibfra.me/vocab/archive>
+* remark:
+
+## eventdescription
+
+* label: 
+* refines: <http://bibfra.me/vocab/lite/xxxx>
+* synonyms: 
+* description: 
+* value: Literal/resource
+* properties:  
+* scope: <http://bibfra.me/vocab/archive>
+* remark:
+
+## eventtype
+
+* label: 
+* refines: <http://bibfra.me/vocab/lite/xxxx>
+* synonyms: 
+* description: 
+* value: Literal/resource
+* properties:  
+* scope: <http://bibfra.me/vocab/archive>
+* remark:
+
+## expan
+
+* label: 
+* refines: <http://bibfra.me/vocab/lite/xxxx>
+* synonyms: 
+* description: 
+* value: Literal/resource
+* properties:  
+* scope: <http://bibfra.me/vocab/archive>
+* remark:
+
+## famname
+
+* label: 
+* refines: <http://bibfra.me/vocab/lite/xxxx>
+* synonyms: 
+* description: 
+* value: Literal/resource
+* properties:  
+* scope: <http://bibfra.me/vocab/archive>
+* remark:
+
+## filedesc
+
+* label: 
+* refines: <http://bibfra.me/vocab/lite/xxxx>
+* synonyms: 
+* description: 
+* value: Literal/resource
+* properties:  
+* scope: <http://bibfra.me/vocab/archive>
+* remark:
+
+## fileplan
+
+* label: 
+* refines: <http://bibfra.me/vocab/lite/xxxx>
+* synonyms: 
+* description: 
+* value: Literal/resource
+* properties:  
+* scope: <http://bibfra.me/vocab/archive>
+* remark:
+
+## footnote
+
+* label: 
+* refines: <http://bibfra.me/vocab/lite/xxxx>
+* synonyms: 
+* description: 
+* value: Literal/resource
+* properties:  
+* scope: <http://bibfra.me/vocab/archive>
+* remark:
+
+## foreign
+
+* label: 
+* refines: <http://bibfra.me/vocab/lite/xxxx>
+* synonyms: 
+* description: 
+* value: Literal/resource
+* properties:  
+* scope: <http://bibfra.me/vocab/archive>
+* remark:
+
+## fromdate
+
+* label: 
+* refines: <http://bibfra.me/vocab/lite/xxxx>
+* synonyms: 
+* description: 
+* value: Literal/resource
+* properties:  
+* scope: <http://bibfra.me/vocab/archive>
+* remark:
+
+## function
+
+* label: 
+* refines: <http://bibfra.me/vocab/lite/xxxx>
+* synonyms: 
+* description: 
+* value: Literal/resource
+* properties:  
+* scope: <http://bibfra.me/vocab/archive>
+* remark:
+
+## genreform
+
+## geogname
+
+* label: 
+* refines: <http://bibfra.me/vocab/lite/xxxx>
+* synonyms: 
+* description: 
+* value: Literal/resource
+* properties:  
+* scope: <http://bibfra.me/vocab/archive>
+* remark:
+
+## geographiccoordinates
+
+* label: 
+* refines: <http://bibfra.me/vocab/lite/xxxx>
+* synonyms: 
+* description: 
+* value: Literal/resource
+* properties:  
+* scope: <http://bibfra.me/vocab/archive>
+* remark:
+
+## head
+
+* label: 
+* refines: <http://bibfra.me/vocab/lite/xxxx>
+* synonyms: 
+* description: 
+* value: Literal/resource
+* properties:  
+* scope: <http://bibfra.me/vocab/archive>
+* remark:
+
+## head01
+
+* label: 
+* refines: <http://bibfra.me/vocab/lite/xxxx>
+* synonyms: 
+* description: 
+* value: Literal/resource
+* properties:  
+* scope: <http://bibfra.me/vocab/archive>
+* remark:
+
+## head02
+
+* label: 
+* refines: <http://bibfra.me/vocab/lite/xxxx>
+* synonyms: 
+* description: 
+* value: Literal/resource
+* properties:  
+* scope: <http://bibfra.me/vocab/archive>
+* remark:
+
+## head03
+
+* label: 
+* refines: <http://bibfra.me/vocab/lite/xxxx>
+* synonyms: 
+* description: 
+* value: Literal/resource
+* properties:  
+* scope: <http://bibfra.me/vocab/archive>
+* remark:
+
+## index
+
+* label: 
+* refines: <http://bibfra.me/vocab/lite/xxxx>
+* synonyms: 
+* description: 
+* value: Literal/resource
+* properties:  
+* scope: <http://bibfra.me/vocab/archive>
+* remark:
+
+## indexentry
+
+* label: 
+* refines: <http://bibfra.me/vocab/lite/xxxx>
+* synonyms: 
+* description: 
+* value: Literal/resource
+* properties:  
+* scope: <http://bibfra.me/vocab/archive>
+* remark:
+
+## item
+
+* label: 
+* refines: <http://bibfra.me/vocab/lite/xxxx>
+* synonyms: 
+* description: 
+* value: Literal/resource
+* properties:  
+* scope: <http://bibfra.me/vocab/archive>
+* remark:
+
+## label
+
+* label: 
+* refines: <http://bibfra.me/vocab/lite/xxxx>
+* synonyms: 
+* description: 
+* value: Literal/resource
+* properties:  
+* scope: <http://bibfra.me/vocab/archive>
+* remark:
+
+## langmaterial
+
+* label: 
+* refines: <http://bibfra.me/vocab/lite/xxxx>
+* synonyms: 
+* description: 
+* value: Literal/resource
+* properties:  
+* scope: <http://bibfra.me/vocab/archive>
+* remark:
+
+## language
+
+* label: 
+* refines: <http://bibfra.me/vocab/lite/xxxx>
+* synonyms: 
+* description: 
+* value: Literal/resource
+* properties:  
+* scope: <http://bibfra.me/vocab/archive>
+* remark:
+
+## languagedeclaration
+
+* label: 
+* refines: <http://bibfra.me/vocab/lite/xxxx>
+* synonyms: 
+* description: 
+* value: Literal/resource
+* properties:  
+* scope: <http://bibfra.me/vocab/archive>
+* remark:
+
+## languageset
+
+* label: 
+* refines: <http://bibfra.me/vocab/lite/xxxx>
+* synonyms: 
+* description: 
+* value: Literal/resource
+* properties:  
+* scope: <http://bibfra.me/vocab/archive>
+* remark:
+
+## lb
+
+* label: 
+* refines: <http://bibfra.me/vocab/lite/xxxx>
+* synonyms: 
+* description: 
+* value: Literal/resource
+* properties:  
+* scope: <http://bibfra.me/vocab/archive>
+* remark:
+
+## legalstatus
+
+* label: 
+* refines: <http://bibfra.me/vocab/lite/xxxx>
+* synonyms: 
+* description: 
+* value: Literal/resource
+* properties:  
+* scope: <http://bibfra.me/vocab/archive>
+* remark:
+
+## list
+
+* label: 
+* refines: <http://bibfra.me/vocab/lite/xxxx>
+* synonyms: 
+* description: 
+* value: Literal/resource
+* properties:  
+* scope: <http://bibfra.me/vocab/archive>
+* remark:
+
 ## listhead
 
 * label: 
