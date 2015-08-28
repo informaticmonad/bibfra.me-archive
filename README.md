@@ -1,5 +1,3 @@
-# bibfra.me archive
-
 bibfra.me Vocabulary for Archival Description
 ========
 
@@ -55,3 +53,11 @@ A section defining a resource type (analogous to an RDF class), as indicated by 
 
 A section defining a property (analogous to an RDF property), as indicated by convention in this case by a second-level header marker (`##`). Again the List defines metaproperties of the property.
 
+
+Contributing
+========
+
+If you are interested in contributing or collaborating, please contact Gloria Gonzalez - gloria (at) zepheira (dot) com
+
+Contributors:
+* Gloria Gonzalez
