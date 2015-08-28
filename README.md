@@ -1,5 +1,4 @@
-# LD4AD
-Linked Data for Archival Description
+# bibfra.me archive
 
 bibfra.me Vocabulary for Archival Description
 ========
