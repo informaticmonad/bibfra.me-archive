@@ -144,10 +144,10 @@ Terms below mapped from EAD3 elements
 
 ## accessrestrict
 
-* label: 
+* label: Conditions Governing Access
 * refines: <http://bibfra.me/vocab/lite/xxxx>
 * synonyms: 
-* description: 
+* description: An element for information about conditions that affect the availability of the materials being described.
 * value: Literal/resource
 * properties:  
 * scope: <http://bibfra.me/vocab/archive>
