@@ -149,7 +149,7 @@ Terms below mapped from EAD3 elements
 * synonyms: http://bibfra.me/vocab/archive/accessRestrict
 * description: Desginates whether or not there are any restrictions on the material, and states the nature of existing restrictions.
 * value: Literal/resource
-* properties:  
+* properties:  end date
 * scope: <http://bibfra.me/vocab/archive>
 * remark:
 
