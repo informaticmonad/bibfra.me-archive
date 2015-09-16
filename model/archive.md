@@ -146,7 +146,7 @@ Terms below mapped from EAD3 elements
 
 * label: Conditions Governing Access
 * refines: <http://bibfra.me/vocab/lite/note>
-* synonyms: http://bibfra.me/vocab/archive/accessRestrict
+* synonyms: http://bibframe.org/vocab/accessCondition.html
 * description: Desginates whether or not there are any restrictions on the material, and states the nature of existing restrictions.
 * value: Literal/resource
 * properties:  end date
