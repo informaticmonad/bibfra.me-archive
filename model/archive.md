@@ -87,7 +87,7 @@ Class Refinements
 # findingAid
 
 * label: finding aid
-* refines: 
+* refines: http://bibfra.me/vocab/lite/Work
 * synonyms: 
 * description: A work with finding aid characteristics that describes archival collections to give the repository physical and intellectual control over the materials, and assist users in gaining access to and understanding the materials
 * value: Literal
