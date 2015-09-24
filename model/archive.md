@@ -155,12 +155,12 @@ Terms below mapped from EAD3 elements
 
 ## accruals
 
-* label: 
-* refines: <http://bibfra.me/vocab/lite/xxxx>
+* label: Accruals
+* refines: <http://bibfra.me/vocab/lite/event>
 * synonyms: 
-* description: 
+* description: Indicates anticipated additions to a collection.  Can also indicate that no accruals are anticipated.
 * value: Literal/resource
-* properties:  
+* properties:  when, who, why, audience
 * scope: <http://bibfra.me/vocab/archive>
 * remark:
 
