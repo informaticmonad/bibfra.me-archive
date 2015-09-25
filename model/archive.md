@@ -156,22 +156,22 @@ Terms below mapped from EAD3 elements
 ## accruals
 
 * label: Accruals
-* refines: <http://bibfra.me/vocab/lite/event>
+* refines: <http://bibfra.me/vocab/lite/ProviderEvent>
 * synonyms: 
 * description: Indicates anticipated additions to a collection.  Can also indicate that no accruals are anticipated.
 * value: Literal/resource
-* properties:  when, who, why, audience
+* properties:  what, when, who, why, audience
 * scope: <http://bibfra.me/vocab/archive>
 * remark:
 
 ## acqinfo
 
-* label: 
-* refines: <http://bibfra.me/vocab/lite/xxxx>
+* label: Acquisition Information
+* refines: <http://bibfra.me/vocab/lite/ProviderEvent>
 * synonyms: 
-* description: 
+* description: Describes the immediate source of the materials and the circumstances under which they were received.
 * value: Literal/resource
-* properties:  
+* properties:  when, who, why, what, date, audience
 * scope: <http://bibfra.me/vocab/archive>
 * remark:
 
