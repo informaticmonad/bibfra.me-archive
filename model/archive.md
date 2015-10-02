@@ -133,10 +133,10 @@ Terms below mapped from EAD3 elements
 
 ## abstract
 
-* label: 
-* refines: <http://bibfra.me/vocab/lite/xxxx>
+* label: Abstract
+* refines: <http://bibfra.me/view/rare/marc/summary/>
 * synonyms: 
-* description: 
+* description: A summary of the contents of the archival collection.
 * value: Literal/resource
 * properties:  
 * scope: <http://bibfra.me/vocab/archive>
