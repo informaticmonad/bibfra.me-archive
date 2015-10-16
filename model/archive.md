@@ -265,10 +265,10 @@ Terms below mapped from EAD3 elements
 
 ## archdesc
 
-* label: 
+* label: Archival Description
 * refines: <http://bibfra.me/vocab/lite/xxxx>
 * synonyms: 
-* description: 
+* description: Wrapper element for the bulk of an EAD document.  Wraps information on the context, content, and extent of the archival materials.
 * value: Literal/resource
 * properties:  
 * scope: <http://bibfra.me/vocab/archive>
