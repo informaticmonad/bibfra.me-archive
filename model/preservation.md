@@ -3,8 +3,8 @@
 BIBFRAME Preservation is a starting point for preservation vocabularies using the 
 http://bibfra.me model and profiles. It builds off of the BIBFRAME Lite vocabulary. 
 It is framework conformant to BIBFRAME and where possible, link-compatible with the 
-US Library of Congress's BIBFRAME vocabulary, http://bibframe.org/. Many terms are 
-mapped from the PREMIS model.
+US Library of Congress's BIBFRAME vocabulary, http://bibframe.org/. This draft starts 
+with a mapping of the PREMIS model.
 
 BIBFRAME Preservation is expressed using the Versa data model, which also
 allows for full expression in RDF form.  This particular file is in
@@ -130,6 +130,12 @@ Properties
 * properties: 
 * scope: <http://bibfra.me/vocab/pres/>
 * remark: 
+
+<!---
+
+(?+) would accepts/rejects work better in bibfra.me/vocab/relation?
+
+-->
 
 # accepts
 
