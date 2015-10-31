@@ -4,7 +4,11 @@ BIBFRAME Preservation is a starting point for preservation vocabularies using th
 http://bibfra.me model and profiles. It builds off of the BIBFRAME Lite vocabulary. 
 It is framework conformant to BIBFRAME and where possible, link-compatible with the 
 US Library of Congress's BIBFRAME vocabulary, http://bibframe.org/. This draft starts 
-with a mapping of the PREMIS model.
+with a mapping of the PREMIS Preservation Metadata Schema Version 2.3:
+
+http://www.loc.gov/standards/premis/v2/premis-v2-3.xsd
+
+This mapping will be updated to accomodate PREMIS Version 3.0 as soon as possible. 
 
 BIBFRAME Preservation is expressed using the Versa data model, which also
 allows for full expression in RDF form.  This particular file is in
@@ -205,152 +209,5 @@ Properties
 * remark: 
 
 
-
-
-<!---
-
-Classes - 
-
-Actions Granted
-Agent Type
-Content Location Type
-Copyright Status
-Cryptographic Hash Functions
-Environment Characteristic
-Environment Purpose
-Event Related Agent Role
-Event Related Object Role
-Event Type
-Format Registry Role
-Hardware Type
-Inhibitor Target
-Inhibitor Type
-Object Category
-Preservation Level Role
-Relationship Subtype
-Relationship Type
-Rights Basis
-Rights Related Agent Role
-Signature Encoding
-Signature Method
-Software Type
-Storage Medium
-
-Properties -
-
-Blowfish
-CRC32
-DFS
-DSA-SHA1
-EXT3
-HAVAL
-MD2
-MNP
-NTFS
-PGP
-SHA-256
-SHA-384
-SHA-512
-TSM
-adler-32
-allContent
-ancillary
-authorizer
-base64
-byteOffset
-capability
-capture
-compression
-contact
-copyright
-copyrighted
-creation
-cryptobinary
-deaccession
-decompression
-decryption
-delete
-deletion
-derivation
-digitalSignatureValidation
-disseminate
-driver
-edit
-executingProgram
-fixityCheck
-grantor
-handle
-hardDisk
-hardware
-hasPart
-hasRoot
-hasSibling
-hasSource
-implimenter
-includes
-ingestion
-inputOutputDevice
-intention
-is Part of
-isIncludedIn
-isSourceOf
-knownToWork
-license
-magneticTape
-md5
-memory
-messageDigestCalculation
-migrate
-migration
-minimum
-modify
-normalization
-operating system
-orgainization
-other
-outcome
-passwordProtection
-person
-playFunction
-print function
-processor
-public domain
-recommended
-render
-renderer
-replicate
-replication
-representation
-requirement
-rightsholder
-ripemd-160
-rsa-sha1
-sha-1
-software
-source
-specification
-statute
-storageDevice
-structural
-tiger
-unknown
-unknown
-unspecified
-uri
-use
-validation
-validationProfile
-validator
-virusCheck
-whirlpool
-
-
-Terms to consider as refinements of Instance, to be further refined by particular types (?)
-
-digital 
-analog
-manual
-
--->
 
 
