@@ -695,9 +695,7 @@ Not sure if the refinements of Instance below are 1:1 synonyms.
 * scope: <http://bibfra.me/vocab/pres/>
 * remark:
 
-Blowfish
-CRC32
-DFS
+
 
 ## dsa-sha1
 
@@ -710,37 +708,6 @@ DFS
 * scope: <http://bibfra.me/vocab/pres/>
 * remark: 
 
-EXT3
-MNP
-NTFS
-PGP
-TSM
-ancillary
-authorizer
-base64
-byteOffset
-capability
-capture
-compression
-contact
-creation
-cryptobinary
-deaccession
-decompression
-decryption
-delete
-deletion
-derivation
-digitalSignatureValidation
-disseminate
-driver
-edit
-executingProgram
-fixityCheck
-grantor
-handle
-hardDisk
-
 # Hardware
 
 * label: hardware
@@ -751,47 +718,6 @@ hardDisk
 * properties: 
 * scope: <http://bibfra.me/vocab/pres/>
 * remark: 
-
-
-
-hasRoot
-hasSibling
-hasSource
-implimenter
-includes
-ingestion
-inputOutputDevice
-intention
-isIncludedIn
-isSourceOf
-knownToWork
-license
-magneticTape
-md5
-memory
-messageDigestCalculation
-migrate
-migration
-minimum
-modify
-normalization
-operating system
-other
-outcome
-passwordProtection
-playFunction
-print function
-processor
-public domain
-recommended
-render
-renderer
-replicate
-replication
-representation
-requirement
-rightsholder
-ripemd-160
 
 ## rsa-sha1
 
@@ -833,14 +759,6 @@ http://id.loc.gov/vocabulary/preservation/signatureMethod/rsa-sha1 is an instanc
 * scope: <http://bibfra.me/vocab/pres/>
 * remark: 
 
-source
-specification
-statute
-storageDevice
-structural
-unknown
-unspecified
-
 # Use
 
 * label: Use
@@ -864,9 +782,89 @@ unspecified
 * scope: <http://bibfra.me/vocab/pres/>
 * remark:
 
+
+<!---
+
+Terms to map:
+
+Blowfish
+DFS
+EXT3
+MNP
+NTFS
+PGP
+TSM
+authorizer
+base64
+byteOffset
+capability
+capture
+compression
+contact
+creation
+cryptobinary
+deaccession
+decompression
+decryption
+deletion
+derivation
+digitalSignatureValidation
+disseminate
+driver
+edit
+executingProgram
+fixityCheck
+grantor
+handle
+hardDisk
+hasRoot
+hasSibling
+hasSource
+implimenter
+includes
+ingestion
+inputOutputDevice
+intention
+isIncludedIn
+isSourceOf
+knownToWork
+license
+magneticTape
+memory
+messageDigestCalculation
+migrate
+migration
+minimum
+modify
+normalization
+operating system
+other
+outcome
+passwordProtection
+playFunction
+print function
+processor
+public domain
+recommended
+render
+renderer
+replicate
+replication
+representation
+requirement
+rightsholder
+source
+specification
+statute
+storageDevice
+structural
+unknown
+unspecified
 validation
 validationProfile
 validator
 virusCheck
+
+-->
 
 
