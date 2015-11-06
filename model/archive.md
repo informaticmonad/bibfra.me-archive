@@ -56,12 +56,15 @@ Extend BIBFRAME Lite Classess
 --->
 
 # <http://bibfra.me/vocab/lite/Work>
-* properties:  
+* properties: scopeContent  
 
 # <http://bibfra.me/vocab/lite/Instance>
-* properties: 
+* properties: scopeContent
 
 # <http://bibfra.me/vocab/lite/Authority>
+
+# <http://bibfra.me/vocab/lite/Collection>
+* properties: contains extent
 
 # <http://bibfra.me/vocab/lite/Person>
 * properties: 
@@ -77,39 +80,12 @@ Extend BIBFRAME Lite Classess
 
 # <http://bibfra.me/vocab/lite/Form>
 * properties: 
+    
+# <http://bibfra.me/vocab/lite/Event>
+* properties: 
 
-<!---
-
-Class Refinements 
--->
-
-
-# findingAid
-
-* label: finding aid
-* refines: http://bibfra.me/vocab/lite/Work
-* synonyms: 
-* description: A work with finding aid characteristics that describes archival collections to give the repository physical and intellectual control over the materials, and assist users in gaining access to and understanding the materials
-* value: Literal
-* properties: eadId 
-* scope: <http://bibfra.me/vocab/archive>
-* remark: 
-
-<!---
-
-Properties - [Terms below are mapped from Structural and Other Limited EAD Elements]
-
--->
-
-## eadId
-
-* label: EAD Identifier
-* refines: <http://bibfra.me/vocab/lite/controlCode>
-* synonyms: 
-* description: Designates a unique code for a particular EAD finding aid document
-* value: Literal
-* scope: <http://bibfra.me/vocab/archive>
-* remark: Equivalent to EAD ID <eadid>
+# <http://bibfra.me/vocab/lite/Temporal>
+* properties:
 
 <!---
 
@@ -120,10 +96,236 @@ EAD elements below are not mapped to the terms above:
 <filedesc> –  File Description 
 
 -->
+   
+   
+<!---
+
+Should reading room be a place? I think it should because a multi-unit organization may have different hours of operation for different locations. 
+
+-->
+    
+# Archive
+
+* label: archive
+* refines: http://bibfra.me/vocab/lite/Place
+* synonyms: 
+* description: Place to access, curate, and store archival collections of historical documents or records providing information about places, institutions, groups of peoples, events, and creative activity. 
+* value: Literal
+* properties: 
+* scope: <http://bibfra.me/vocab/archive>
+* remark:
+
+## arranger
+
+* label: archivist
+* refines: <http://bibfra.me/vocab/lite/contributor>
+* synonyms: 
+* description: Person who works to provide access to archival collections of historical documents or records providing information about places, institutions, groups of peoples, events, and creative activity. 
+* value: Literal
+* properties: 
+* scope: <http://bibfra.me/vocab/archive>
+* remark:
+
+# repository
+
+* label: repository
+* refines: http://bibfra.me/vocab/lite/organization
+* synonyms: 
+* description: Name of holding organization or repository. 
+* value: Literal
+* properties:  
+* scope: <http://bibfra.me/vocab/archive>
+* remark: Equevalent to Name of Repository Element (2.2) in Describing Archives: a Content Standard, 2nd Edition (2015).
 
 <!---
 
-Terms below mapped from EAD3 elements
+ http://bibfra.me/vocab/lite/address should suffice, I don't think addresssRepository is needed. 
+
+-->
+
+
+# addressRepository 
+
+* label: repository address
+* refines: http://bibfra.me/vocab/lite/address
+* synonyms: 
+* description: Address of holding organization or repository. 
+* value: Literal
+* properties:  
+* scope: <http://bibfra.me/vocab/archive>
+* remark: Equevalent to Location of Repository Element (2.2) in Describing Archives: a Content Standard, 2nd Edition (2015).
+
+    
+# findingAid
+
+* label: finding aid
+* refines: http://bibfra.me/vocab/lite/Work
+* synonyms: 
+* description: Work with finding aid characteristics that describes archival collections to give the repository physical and intellectual control over the materials, and assist users in gaining access to and understanding the materials.
+* value: Literal
+* properties: eadId 
+* scope: <http://bibfra.me/vocab/archive>
+* remark:
+
+## eadId
+
+* label: EAD Identifier
+* refines: <http://bibfra.me/vocab/lite/controlCode>
+* synonyms: 
+* description: Designates a unique code for a particular EAD finding aid document.
+* value: Literal
+* scope: <http://bibfra.me/vocab/archive>
+* remark: Equivalent to EAD ID <eadid>
+	
+# ArchivalCollection 
+* label: Archival Collection
+* refines: <http://bibfra.me/vocab/lite/Collection>
+* description: Aggregation or gathering of works.
+* properties: primary memberOf scopeContent contains extent
+* scope: <http://bibfra.me/vocab/archive>
+
+# Series
+* label: Series
+* refines: <http://bibfra.me/vocab/lite/Series>
+* description: Aggregation or gathering of works within an archival collection.
+* properties: primary memberOf scopeContent contains
+* scope: <http://bibfra.me/vocab/archive>
+
+# SubSeries
+* label: <http://bibfra.me/vocab/lite/SubSeries>
+* refines: Series
+* description: Aggregation or gathering of works within a series.
+* properties: primary memberOf scopeContent contains
+* scope: <http://bibfra.me/vocab/archive>
+
+# Box
+* label: Box
+* refines: <http://bibfra.me/vocab/lite/Instance>
+* description: A box that contains archival materials. 
+* properties: primary memberOf scopeContent contains
+* scope: <http://bibfra.me/vocab/archive>
+
+# Folder
+* label: Folder
+* refines: <http://bibfra.me/vocab/lite/Instance>
+* description: A folder that contains archival materials. 
+* properties: primary memberOf scopeContent contains
+* scope: <http://bibfra.me/vocab/archive>
+
+# Item
+* label: Item
+* refines: <http://bibfra.me/vocab/lite/Instance>
+* description: Archival item or object. 
+* properties: primary memberOf scopeContent
+* scope: <http://bibfra.me/vocab/archive>
+
+
+<!---
+
+Terms below are mapped from DACS Multilevel Required elements:
+
+-->
+
+# referenceCode
+
+* label: reference code
+* refines: <http://bibfra.me/vocab/lite/controlCode>
+* synonyms: 
+* description: A local or repository identifier for archival collection, box, folder or item. 
+* value: Literal
+* properties:  
+* scope: <http://bibfra.me/vocab/archive>
+* remark: Equevalent to Reference Code Element 2.1 in Describing Archives: a Content Standard, 2nd Edition (2015). At the highest levels of description, this is oftentimes known as the collection number, e.g., UARS745 for University Archives Record Series #745.
+
+# extent
+
+* label: extent
+* refines: 
+* synonyms: 
+* description: Used to identify and describe the physical or logical extent and the medium of the unit of description. Oftentimes measured in linear shelf space or cubic storage space of the unit of description, or the amount of digital files and storage space.
+* value: Literal
+* properties:  
+* scope: <http://bibfra.me/vocab/archive>
+* remark: Equevalent to Extent Element 2.5 in in Describing Archives: a Content Standard, 2nd Edition (2015). 
+
+
+# scopeContent
+
+* label: scope and content
+* refines: http://bibfra.me/vocab/lite/note
+* synonyms: 
+* description: Scope and content note. 
+* value: Literal
+* properties:  
+* scope: <http://bibfra.me/vocab/archive>
+* remark: Equevalent to Scope and Content Element 3.1 in Describing Archives: a Content Standard, 2nd Edition (2015).
+
+
+# accessConditions
+
+* label: conditions governing access
+* refines: http://bibfra.me/vocab/lite/note
+* synonyms: 
+* description: Note on conditions for accessing an archival collection. 
+* value: Literal
+* properties:  
+* scope: <http://bibfra.me/vocab/archive>
+* remark: Equevalent to Scope and Conditions Governing Access Element 4.1 in Describing Archives: a Content Standard, 2nd Edition (2015).
+
+
+<!---
+
+Elements below are oncluded in BF Lite but need updated definitions for the BF Lite + Archives layer.
+
+# title
+
+* label: title
+* refines: http://bibfra.me/vocab/lite/title
+* synonyms: 
+* description: Title of an archival collection, box, folder or item. 
+* value: Literal
+* properties:  
+* scope: <http://bibfra.me/vocab/archive>
+* remark: Equevalent to Title Element 2.3 in Describing Archives: a Content Standard, 2nd Edition (2015).
+
+# date
+
+* label: date
+* refines: http://bibfra.me/vocab/lite/date
+* synonyms: 
+* description: Date of an archival collection, box, folder or item. 
+* value: Literal
+* properties:  
+* scope: <http://bibfra.me/vocab/archive>
+* remark: Equevalent to Date Element 2.4 in Describing Archives: a Content Standard, 2nd Edition (Updated March 2015).
+
+# creator
+
+* label: extent
+* refines: --use something on the relator level instead of refining? 
+* synonyms: 
+* description: Creator of an archival item or group of items.
+* value: Literal
+* properties:  
+* scope: <http://bibfra.me/vocab/archive>
+* remark: Equevalent to Name of Creator(s) Element 2.6 in in Describing Archives: a Content Standard, 2nd Edition (2015).
+
+# language
+
+* label: language
+* refines: http://bibfra.me/vocab/lite/note
+* synonyms: 
+* description: Language or script of the archival material.
+* value: Literal
+* properties:  
+* scope: <http://bibfra.me/vocab/archive>
+* remark: Equevalent to Languages and Scripts of the Material Element 4.5 in Describing Archives: a Content Standard, 2nd Edition (2015).
+
+--->
+
+
+<!---
+**** Terms below mapped from EAD3 elements ****
 
 -->
 
@@ -1914,3 +2116,9 @@ Terms below mapped from EAD3 elements
 * properties:  
 * scope: <http://bibfra.me/vocab/archive>
 * remark:
+
+
+
+
+
+
