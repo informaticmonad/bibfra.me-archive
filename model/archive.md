@@ -64,7 +64,7 @@ Extend BIBFRAME Lite Classess
 # <http://bibfra.me/vocab/lite/Authority>
 
 # <http://bibfra.me/vocab/lite/Collection>
-* properties: contains extent
+* properties: contains extent 
 
 # <http://bibfra.me/vocab/lite/Person>
 * properties: 
@@ -86,16 +86,6 @@ Extend BIBFRAME Lite Classess
 
 # <http://bibfra.me/vocab/lite/Temporal>
 * properties:
-
-<!---
-
-EAD elements below are not mapped to the terms above: 
-
-<ead> – EAD wrapper
-<eadheader> – EAD Header
-<filedesc> –  File Description 
-
--->
    
    
 <!---
@@ -117,7 +107,7 @@ Should reading room be a place? I think it should because a multi-unit organizat
 
 ## arranger
 
-* label: archivist
+* label: arranger
 * refines: <http://bibfra.me/vocab/lite/contributor>
 * synonyms: 
 * description: Person who works to provide access to archival collections of historical documents or records providing information about places, institutions, groups of peoples, events, and creative activity. 
@@ -275,7 +265,7 @@ Terms below are mapped from DACS Multilevel Required elements:
 
 <!---
 
-Elements below are oncluded in BF Lite but need updated definitions for the BF Lite + Archives layer.
+Elements below are oncluded in BF Lite but need updated descriptions for the BF Lite + Archives layer.
 
 # title
 
@@ -321,11 +311,30 @@ Elements below are oncluded in BF Lite but need updated definitions for the BF L
 * scope: <http://bibfra.me/vocab/archive>
 * remark: Equevalent to Languages and Scripts of the Material Element 4.5 in Describing Archives: a Content Standard, 2nd Edition (2015).
 
+Not from DACS but needs updated description:
+
+## donor
+
+* label: donor
+* refines: <http://bibfra.me/vocab/lite/contributor>
+* synonyms: 
+* description: Person who donates an archival collection of documents or records providing information about themselves, places, institutions, groups of peoples, events, and creative activity.
+* value: Literal
+* properties: 
+* scope: <http://bibfra.me/vocab/archive>
+* remark:
+
 --->
 
 
 <!---
 **** Terms below mapped from EAD3 elements ****
+
+EAD elements below are not mapped: 
+
+<ead> – EAD wrapper
+<eadheader> – EAD Header
+<filedesc> –  File Description 
 
 -->
 
@@ -366,9 +375,9 @@ Elements below are oncluded in BF Lite but need updated definitions for the BF L
 * scope: <http://bibfra.me/vocab/archive>
 * remark:
 
-## acqinfo
+## acqInfo
 
-* label: Acquisition Information
+* label: Acquisition
 * refines: <http://bibfra.me/vocab/lite/ProviderEvent>
 * synonyms: http://bibframe.org/vocab/immediateAcquisition.html
 * description: Describes the immediate source of the materials and the circumstances under which they were received.
