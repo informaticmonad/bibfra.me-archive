@@ -60,5 +60,5 @@ Contributing
 If you are interested in contributing or collaborating, please contact Gloria Gonzalez - gloria (at) zepheira (dot) com
 
 Contributors:
-* Gloria Gonzalez, Library Strategist at Zepheira
+* Gloria Gonzalez, Library Strategist at Zepheira 
 * Alexis Antracoli, Assistant University Archivst and Archivst for Technical Services at Princeton University
